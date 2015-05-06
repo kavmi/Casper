@@ -512,7 +512,7 @@ body.nav-opened .site-wrapper {
 }
 
 .main-header .gravatar {
-aling: center;
+  text-align: center;
   overflow: hidden;
   width: 100px;
   height: 100px;
@@ -520,7 +520,7 @@ aling: center;
   -webkit-border-radius: 50%;
   border-radius: 50%;
   margin: 0;
-  float: right;
+  float: left;
 }
 
 .main-header .inner {
