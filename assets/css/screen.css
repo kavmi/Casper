@@ -511,8 +511,6 @@ body.nav-opened .site-wrapper {
     overflow: hidden;
 }
 
-
-
 .gravatar {
   overflow: hidden;
   width: 100px;
@@ -520,8 +518,9 @@ body.nav-opened .site-wrapper {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  margin: 50px;
-  float: right;
+  margin: 0px;
+  right: 240px;
+  position: fixed;
 }
 
 .main-header .inner {
