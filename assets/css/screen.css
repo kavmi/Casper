@@ -511,19 +511,6 @@ body.nav-opened .site-wrapper {
     overflow: hidden;
 }
 
-.gravatar {
-  overflow: hidden;
-  width: 100px;
-  height: 100px;
-  -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  border-radius: 50%;
-  margin: 0px;
-  right: 240px;
-  top: 50px;
-  position: fixed;
-}
-
 .main-header .inner {
     width: 80%;
 }
@@ -795,7 +782,7 @@ body.nav-opened .nav {
 }
 
 .menu-button {
-   -webkit-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: inline-block;
@@ -880,7 +867,7 @@ body.nav-opened .nav {
 /* The details of your blog. Defined in ghost/settings/ */
 .page-title {
     margin: 10px 0 10px 0;
-    font-size: 5rem;
+    font-size: 8rem;
     letter-spacing: -1px;
     font-weight: 700;
     font-family: "Open Sans", sans-serif;
@@ -899,8 +886,8 @@ body.nav-opened .nav {
 
 .no-cover.main-header {
     min-height: 160px;
-    max-height: 30vh;
-    background: #fff;
+    max-height: 40vh;
+    background: #f5f8fa;
 }
 
 .no-cover .page-title {
