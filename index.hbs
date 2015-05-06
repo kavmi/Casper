@@ -2,10 +2,6 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{! The big featured header }}
-
-<div class="gravatar">
-<a href="http://eepurl.com/ApKLD"><img class="alignnone size-full wp-image-1092" alt="Untitled-2" src="http://minimalcoin.com/wp-content/uploads/2014/09/Untitled-2.jpg" width="100" height="100" /></a>
-	</div>
 <header class="main-header {{#if @blog.cover}}" style="background-image: url({{@blog.cover}}){{else}}no-cover{{/if}}">
     <nav class="main-nav overlay clearfix">
         {{#if @blog.logo}}<a class="blog-logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="Blog Logo" /></a>{{/if}}
@@ -20,7 +16,6 @@
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
-		
 </header>
 
 {{! The main content area on the homepage }}
@@ -30,3 +25,4 @@
     {{> "loop"}}
 
 </main>
+
