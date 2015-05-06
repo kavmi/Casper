@@ -512,15 +512,14 @@ body.nav-opened .site-wrapper {
 }
 
 .main-header .gravatar {
-  text-align: center;
   overflow: hidden;
   width: 100px;
   height: 100px;
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  margin: 0;
-  float: left;
+  margin: 50px;
+  float: right;
 }
 
 .main-header .inner {
