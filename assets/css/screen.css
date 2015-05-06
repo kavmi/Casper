@@ -795,9 +795,6 @@ body.nav-opened .nav {
 }
 
 .menu-button {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
     display: inline-block;
     float: right;
     height: 38px;
