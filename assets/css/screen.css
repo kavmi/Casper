@@ -511,6 +511,13 @@ body.nav-opened .site-wrapper {
     overflow: hidden;
 }
 
+.main-header .container {
+  max-width: 720px;
+  padding: 0px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .main-header .gravatar {
   overflow: hidden;
   width: 100px;
